@@ -18,10 +18,11 @@ class shenanigans
   end
     
 end
- lily = shenanigans.new("red hair", "layers","double gold shapes")
-  jessica = shenanigans.new("straight black hair", "marble","double gold balls")
-  alice = shenanigans.new("curly brown hair", "pendant","dangly")
-  sam = shenanigans.new("wavy black hair", "circle", "pearls")
-  
-  puts ""
+girls, high school, jewelry
 
+lily = shenanigans.new("red", "layers","double gold shapes")
+jessica = shenanigans.new("straight black", "marble","double gold balls")
+alice = shenanigans.new("curly brown", "pendant","dangly")
+sam = shenanigans.new("wavy black", "circle", "pearls")
+  
+puts "What color is Lily's hair? #{shenanigans.what_is_her_hair_like) puts 
