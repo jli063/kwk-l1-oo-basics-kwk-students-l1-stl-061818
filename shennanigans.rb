@@ -6,4 +6,8 @@ class shenanigans
     @teens = teens
   end
   
+  def is_she_a_girl
+    @girl
+  end
+  
 end
