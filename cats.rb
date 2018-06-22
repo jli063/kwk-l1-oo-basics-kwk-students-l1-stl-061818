@@ -31,5 +31,5 @@ tiger = Cats.new("very", "pretty fuzzy", "super duper mean")
 garfield = Cats.new("has a bit of an attitude","up to debate","yes, he's hangry all the time")
 # puts "Is Garfield cute? #{garfield.is_it_cute}"
 
-puts "Is tiger mean? #{tiger.is_it_mean}"
-puts "give me some basic facts about tiger. #{tiger.basic_facts}"
+puts "Is tiger mean? #{tiger.is_it_mean} #{tiger.basic_facts}"
+# puts "give me some basic facts about tiger. #{tiger.basic_facts}"
