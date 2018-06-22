@@ -18,7 +18,7 @@ class shenanigans
   end
     
 end
-girls, high school, jewelry
+# girls, high school, jewelry
 
 lily = shenanigans.new("red", "layers","double gold shapes")
 jessica = shenanigans.new("straight black", "marble","double gold balls")
