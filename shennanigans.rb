@@ -1,4 +1,4 @@
-class shenanigans
+class Shenanigans
   def initialize(hair, necklace, earrings)
     @hair = hair
     @necklace = necklace
@@ -20,10 +20,10 @@ class shenanigans
 end
 # girls, high school, jewelry
 
-lily = shenanigans.new("red", "layers","double gold shapes")
-jessica = shenanigans.new("straight black", "marble","double gold balls")
-alice = shenanigans.new("curly brown", "pendant","dangly")
-sam = shenanigans.new("wavy black", "circle", "pearls")
+lily = Shenanigans.new("red", "layers","double gold shapes")
+jessica = Shenanigans.new("straight black", "marble","double gold balls")
+alice = Shenanigans.new("curly brown", "pendant","dangly")
+sam = Shenanigans.new("wavy black", "circle", "pearls")
   
 puts "What color is Lily's hair? #{lily.what_is_her_hair_like}. What are her necklaces like? #{lily.what_is_her_necklace}.What are her earrings? #{lily.what_are_her_earrings}."
 puts "What color is Jessica's hair? #{jessica.what_is_her_hair_like}. What are her necklaces like? #{jessica.what_is_her_necklace}. What are her earrings? #{jessica.what_are_her_earrings}"
